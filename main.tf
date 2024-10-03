@@ -1,6 +1,6 @@
 module "vpc" {
     source = "../expense-latest"
-    project_name = "expense"
-    environment = "dev"
+    project_name = var.project_name
+    environment = var.environment 
   
 }
